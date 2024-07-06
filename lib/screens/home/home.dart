@@ -245,7 +245,7 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   _buildTapPage(double appWidth) {
-    return Padding(
+    return Container(
       padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 20),
       child: Column(
         children: [
@@ -300,7 +300,7 @@ class _HomeScreenState extends State<HomeScreen> {
             ),
           ),
           const SizedBox(
-            height: 40,
+            height: 80,
           )
         ],
       ),
